@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #7eaf34;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.comp1008winter2025tuesdaysgui.SoccerController">
+   <children>
+      <Rectangle fx:id="field" arcHeight="5.0" arcWidth="5.0" fill="#7eaf34" height="350.0" layoutX="25.0" layoutY="25.0" onMouseMoved="#playingGame" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="550.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7eaf34" height="220.0" layoutX="25.0" layoutY="90.0" onMouseEntered="#playingGame" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7eaf34" height="138.0" layoutX="25.0" layoutY="131.0" onMouseEntered="#playingGame" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="44.0" />
+      <Circle fill="#7eaf34" layoutX="505.0" layoutY="200.0" onMouseEntered="#playingGame" radius="57.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7eaf34" height="220.0" layoutX="475.0" layoutY="90.0" onMouseEntered="#playingGame" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7eaf34" height="138.0" layoutX="531.0" layoutY="131.0" onMouseEntered="#playingGame" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="44.0" />
+      <Circle fx:id="ball" fill="WHITE" layoutX="353.0" layoutY="299.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="info" layoutX="188.0" layoutY="378.0" prefHeight="18.0" prefWidth="186.0" text="Label" />
+   </children>
+</AnchorPane>

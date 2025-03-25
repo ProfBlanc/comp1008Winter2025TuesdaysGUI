@@ -1,0 +1,57 @@
+-create a new JavaFX project from InteliJ
+-download and install SceneBuilder
+	C:\Users\Ben\AppData\Local\SceneBuilder\SceneBuilder.exe
+-link SceneBuilder & IntelliJ
+-take a tour of JavaFX project
+-take a tour of SceneBuilder
+-create layouts
+
+
+
+.fxml		xml  <NAME attribute="">
+	layout of the screen
+.css
+images
+other non .java files
+
+
+MVC
+	Model
+		.java file
+		a form
+		responsible to processing data
+	View
+		.fxml file
+		how page looks using Nodes
+	Controller
+		.java file
+		responsible for event management
+
+window			stage
+
+document		scene
+
+element			node
+
+
+
+To create a new screen
+	create a Model. ends in "Model"
+	create a Controller. ends in "Controller"
+	create a View. ends in "-view"
+
+
+Pane
+	default container Node
+		nodes can go inside Panes
+AnchorPane
+ScrollPane
+TabPane
+GridPane
+
+
+
+anytime the ball enters the area of any goal
+	info displays: GOAAAAAAAAAAAAL!
+bonus: add labels to keep track of home and away
+	team scores
